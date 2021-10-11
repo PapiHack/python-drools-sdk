@@ -1,5 +1,5 @@
-from commands.abstract_command import AbstractCommand
-from commands.insert_object_command import InsertObjectCommand
+from .abstract_command import AbstractCommand
+from .insert_object_command import InsertObjectCommand
 
 class InsertElementsCommand(AbstractCommand):
 

@@ -1,4 +1,4 @@
-from kie.drools import Drools
+from ..kie.drools import Drools
 
 
 class AbstractCommand:

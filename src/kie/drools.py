@@ -1,7 +1,7 @@
-from utils import endpoints
-from utils.make_request import MakeRequest
-from exceptions.drools_exception import DroolsException
-from utils.data_store import DataStore
+from ..utils import endpoints
+from ..utils.make_request import MakeRequest
+from ..exceptions.drools_exception import DroolsException
+from ..utils.data_store import DataStore
 
 class Drools:
     KIE_SERVER_USERNAME = None

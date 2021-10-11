@@ -1,5 +1,5 @@
-from commands.abstract_command import AbstractCommand
-from utils.data_store import DataStore
+from .abstract_command import AbstractCommand
+from ..utils.data_store import DataStore
 
 class InsertObjectCommand(AbstractCommand):
 
