@@ -40,7 +40,7 @@ from python_drools_sdk.exceptions.drools_exception import DroolsException
 class Person:
     def __init__(self, **kwargs) -> None:
         self.name = kwargs.get('name', 'Papi')
-        self.age = kwargs.get('age', '45')
+        self.age = kwargs.get('age', 46)
         self.id = kwargs.get('id', None)
         self.isMajor = kwargs.get('isMajor', None)
 
@@ -59,8 +59,8 @@ Drools.KIE_SESSION_NAME = 'your_kie_session_name'
 # Creation of data objects
 person = Person(id=1)
 P1 = Person(name='Fatou', id=2, age=15)
-P2 = Person(name='Daba', id=2, age=17)
-P3 = Person(name='Nabou', id=3, age=28)
+P2 = Person(name='Daba', id=3, age=17)
+P3 = Person(name='Nabou', id=4, age=28)
 persons = [P1, P2, P3]
 
 # Create an InsertObjectCommand in order to fire rules on a specific object
@@ -93,6 +93,7 @@ drools_persons_list_response = response['persons']
 # Here the 'json2object' function take as a first parameter the json/dict to be converted and as a final parameter,
 # the destination type (here, the 'Person' class that we defined earlier)
 person_papi_object = helpers.json2object(drools_person_response, Person)
+print(person_papi_object)
 
 # A function named 'object2json' is also defined and allow you like its name says, to convert an object to json/dict
 

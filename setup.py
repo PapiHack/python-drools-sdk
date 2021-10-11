@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
 
 setuptools.setup(
     name="python-drools-sdk",
-    version="0.0.2",
+    version="0.0.3",
     author="PapiHack",
     author_email="mssmbaye@gmail.com",
     description="A Drools KIE SERVER client library",
