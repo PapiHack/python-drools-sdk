@@ -5,7 +5,7 @@
 ![Issues](https://img.shields.io/github/issues/PapiHack/python-drools-sdk?style=for-the-badge&logo=appveyor)
 ![PR](https://img.shields.io/github/issues-pr/PapiHack/python-drools-sdk?style=for-the-badge&logo=appveyor)
 ![unstable](https://img.shields.io/badge/unstable-dev--master-orange?style=for-the-badge&logo=appveyor)
-![stable](https://img.shields.io/badge/STABLE-v0.0.1-blue?style=for-the-badge&logo=appveyor)
+![stable](https://img.shields.io/badge/STABLE-v0.0.3-blue?style=for-the-badge&logo=appveyor)
 
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
