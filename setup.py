@@ -37,7 +37,13 @@ setuptools.setup(
         "typish==1.9.3",
         "urllib3==1.26.7",
     ],
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    package_dir={"python_drools_sdk": "src"},
+    packages=[
+        'python_drools_sdk',
+        'python_drools_sdk.commands',
+        'python_drools_sdk.exceptions',
+        'python_drools_sdk.utils',
+        'python_drools_sdk.kie',
+    ],
     python_requires=">=3.6",
 )
