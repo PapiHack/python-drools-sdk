@@ -11,6 +11,15 @@
 
 This is a `python` package that allow you to interact with the REST API exposed by your `KIE Server` instance powered by `Drools`.
 
+## Notes
+
+By default, `Drools KIE SERVER` offers a couple of sample runtime commands that you can use with the KIE Server REST or this client library
+for asset-related operations in KIE SERVER. This lib trigger by default the `FireAllRulesCommand` behind the scenes after objects's insertion.
+Other than that, the other commands implemented are :
+
+- InsertObjectCommand
+- InsertElementsCommand
+
 ## Installation
 
 First and foremost, start by installing the package by running the following command : 
@@ -105,7 +114,7 @@ Feel free to make a PR or report an issue.
 
 Oh, one more thing, please do not forget to put a description when you make your PR 🙂
 
-## Contributors
+## Author
 
 - [M.B.C.M](https://itdev.sn)
 [![My Twitter Link](https://img.shields.io/twitter/follow/the_it_dev?style=social)](https://twitter.com/the_it_dev)
