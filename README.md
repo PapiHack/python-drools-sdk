@@ -7,6 +7,7 @@
 ![unstable](https://img.shields.io/badge/unstable-dev--master-orange?style=for-the-badge&logo=appveyor)
 ![stable](https://img.shields.io/badge/STABLE-v0.0.3-blue?style=for-the-badge&logo=appveyor)
 
+[![PyPI version](https://badge.fury.io/py/python-drools-sdk.svg)](https://badge.fury.io/py/python-drools-sdk)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 This is a `python` package that allow you to interact with the REST API exposed by your `KIE Server` instance powered by `Drools`.
