@@ -29,7 +29,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "certifi==2021.10.8",
+        "certifi==2022.12.7",
         "charset-normalizer==2.0.6",
         "idna==3.2",
         "jsons==1.5.1",
